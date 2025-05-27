@@ -182,6 +182,15 @@ Garbage collection refers to the process of automatically freeing
 memory on the heap by deleting objects that are no longer reachable
 in your program.
 
+How does the JVM know when an object is eligible for garbage
+collection?
+
+1. The object no longer has any references pointing to it.
+2. All references to the object have gone out of scope.
+
+
+
+
 
 
 
