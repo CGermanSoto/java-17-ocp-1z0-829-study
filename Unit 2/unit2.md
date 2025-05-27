@@ -119,6 +119,73 @@ There are only four rules to remember for legal identifiers:
 * You cannot use the same name as a Java reserved word. 
 
 
+```java
+legal: 
+long okidentifier;
+float $OK2Identifier;
+boolean _alsoOK1d3ntifi3r;
+char __SStillOkbutKnotsonice$;
+
+Ilegal:
+int 3DPointClass; // identifiers cannot begin with a number
+byte hollywood@vine; // @ is not a letter, digit, $ or _
+String *$coffee; // * is not a letter, digit, $ or _
+double public; // public is a reserved word
+short _; // a single underscore is not allowed
+
+
+int num, String value; // DOES NOT COMPILE declare multiple variables of different types in the same statement.
+```
+### INTRODUCING VAR
+Local variable type inference works with local variables and not instance variables.
+
+```java
+public void whatTypeAmI() {
+var name = "Hello";
+var size = 7;
+}
+
+public class VarKeyword {
+var tricky = "Hello"; // DOES NOT COMPILE
+}
+
+
+7: public void reassignment() {
+8: var number = 7;
+9: number = 4;
+10: number = "five"; // DOES NOT COMPILE
+11: }
+```
+
+1. A var is used as a local variable in a constructor, method, or
+initializer block.
+2. A var cannot be used in constructor parameters, method parameters,
+instance variables, or class variables.
+3. A var is always initialized on the same line (or statement) where it is
+declared.
+4. The value of a var can change, but the type cannot.
+
+5. A var cannot be initialized with a null value without a type.
+6. A var is not permitted in a multiple-variable declaration.
+7. A var is a reserved type name but not a reserved word, meaning it
+can be used as an identifier except as a class, interface, or enum name.
+
+### Scope
+
+* Local variables: In scope from declaration to end of block
+* Instance variables: In scope from declaration until object eligible for
+garbage collection
+* Class variables: In scope from declaration until program ends
+
+### GARBAGE COLLECTION
+Garbage collection refers to the process of automatically freeing
+memory on the heap by deleting objects that are no longer reachable
+in your program.
+
+
+
+
+
 
 
 
