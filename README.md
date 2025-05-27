@@ -4,9 +4,9 @@
 
 ## 📚Apendix
 
-1. [Welcome to Java](../java-17-ocp-1z0-829-study/Unit%201/unit1.md)
-1. [Java Building Blocks](../java-17-ocp-1z0-829-study/Unit%202/unit2.md)
-2. [Operators]()
+1. [Welcome to Java](Unit_1\unit1.md)
+1. [Java Building Blocks](Unit_2\unit2.md)
+2. [Operators](Unit_3/unit3.md)
 3. [Making Decisions]()
 4. [Core Java Apis]()
 5. [Lambdas and Functional Interfaces]()
