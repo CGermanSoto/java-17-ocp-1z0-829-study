@@ -113,7 +113,8 @@ int max = (high > low) ? high : low; // max = 10
 * Simple: =
 
 * Compound: +=, -=, *=, /=, %=, <<=, >>=, >>>=, &=, ^=, |=
-```javabyte b = 5;
+```java
+byte b = 5;
 b += 3;    // OK: implicit cast back to byte
 // b = b + 3; // COMPILE ERROR: b+3 is int → needs explicit cast
 ```
