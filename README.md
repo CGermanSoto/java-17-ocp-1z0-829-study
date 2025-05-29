@@ -7,7 +7,7 @@
 1. [Welcome to Java](Unit_1/unit1.md)
 2. [Java Building Blocks](Unit_2/unit2.md)
 3. [Operators](Unit_3/unit3.md)
-3. [Making Decisions](Unit_4/unit4)
+3. [Making Decisions](Unit_4/unit4.md)
 4. [Core Java Apis](Unit_5/unit5.md)
 5. [Lambdas and Functional Interfaces](Unit_6/unit6.md)
 6. [Methods and Encapsulation]()
